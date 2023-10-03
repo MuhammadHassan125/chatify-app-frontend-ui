@@ -6,7 +6,7 @@ import ReactScrollToBottom from "react-scroll-to-bottom";
 import Message from './Message/Message';
 
 let socket;
-const ENDPOINT = "http://localhost:5000/"
+const ENDPOINT = "https://chatify-app-backend-code.vercel.app/"
 const Chat = () => {
   const [id, setid] = useState("");
   const [messages, setMessages] = useState([])
